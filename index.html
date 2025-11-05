@@ -75,22 +75,71 @@
     <main class="container mx-auto px-6 py-16 md:py-24">
         <div class="flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
             <!-- Hero Text -->
-            <div class="lg:w-full text-center">
+            <div class="lg:w-1/2 text-center lg:text-left">
                 <span class="inline-block bg-indigo-100 text-indigo-700 font-medium px-4 py-1 rounded-full text-sm">
                     Available 24/7/365
                 </span>
                 <h1 class="text-4xl md:text-6xl font-extrabold text-slate-900 mt-4 leading-tight">
                     Your New AI Service Rep is Here.
                 </h1>
-                <p class="text-lg text-slate-600 mt-6 max-w-2xl mx-auto">
+                <p class="text-lg text-slate-600 mt-6 max-w-xl mx-auto lg:mx-0">
                     Stop missing calls and losing leads. Our AI bot answers 90% of customer questions and schedules appointments for you, even while you sleep.
                 </p>
-                <div class="mt-10 flex flex-col sm:flex-row gap-4 justify-center">
+                <div class="mt-10 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
                     <!-- Removed buttons -->
                 </div>
             </div>
 
-            <!-- Hero Chat Mockup (REMOVED) -->
+            <!-- Hero Chat Mockup -->
+            <div class="lg:w-1/2 w-full max-w-md">
+                <div class="bg-white p-4 rounded-xl shadow-2xl border border-slate-200">
+                    <div class="flex items-center gap-3 pb-3 border-b border-slate-200">
+                        <img src="https://placehold.co/40x40/6366f1/white?text=A&font=inter" alt="Bot Avatar" class="w-10 h-10 rounded-full bg-indigo-600 text-white flex items-center justify-center font-bold">
+                        <div>
+                            <p class="font-semibold text-slate-900">Everboto</p>
+                            <p class="text-sm text-green-600 flex items-center gap-1.5">
+                                <span class="w-2 h-2 bg-green-500 rounded-full"></span>
+                                Online
+                            </p>
+                        </div>
+                    </div>
+                    <div class="space-y-4 py-4 h-80 overflow-y-auto">
+                        <!-- Bot Message -->
+                        <div class="flex justify-start">
+                            <div class="bg-slate-100 text-slate-800 p-3 rounded-lg rounded-bl-none max-w-[80%]">
+                                <p>Hi! Welcome to Dr. Smiles Dental. How can I help you today? I can answer questions or book an appointment.</p>
+                            </div>
+                        </div>
+                        <!-- User Message -->
+                        <div class="flex justify-end">
+                            <div class="bg-indigo-600 text-white p-3 rounded-lg rounded-br-none max-w-[80%]">
+                                <p>I need to schedule a cleaning for next week.</p>
+                            </div>
+                        </div>
+                        <!-- Bot Message -->
+                        <div class="flex justify-start">
+                            <div class="bg-slate-100 text-slate-800 p-3 rounded-lg rounded-bl-none max-w-[80%]">
+                                <p>Great! We have openings on Tuesday at 2:00 PM or Wednesday at 10:30 AM. Do either of those work for you?</p>
+                            </div>
+                        </div>
+                        <!-- User Message -->
+                        <div class="flex justify-end">
+                            <div class="bg-indigo-600 text-white p-3 rounded-lg rounded-br-none max-w-[80%]">
+                                <p>Tuesday at 2 PM is perfect.</p>
+                            </div>
+                        </div>
+                        <!-- Bot Message -->
+                        <div class="flex justify-start">
+                            <div class="bg-slate-100 text-slate-800 p-3 rounded-lg rounded-bl-none max-w-[80%]">
+                                <p>You're all set! We have you booked for a cleaning on Tuesday at 2:00 PM. We'll send a confirmation to your email shortly. Can I help with anything else?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pt-3 border-t border-slate-200">
+                        <input type="text" placeholder="Type your message..." class="w-full px-4 py-2 rounded-lg border border-slate-300" disabled>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
 
@@ -161,7 +210,7 @@
                     <h3 class="text-xl font-bold text-slate-900 mt-5">Smart Human Handoff</h3>
                     <p class="text-slate-600 mt-2">
                         Knows when to get a human. If a customer has a complex issue, the bot seamlessly transfers them (and the chat history) to your live team.
-                    </in>
+                    </p>
                 </div>
                 <!-- Feature 6 -->
                 <div class="bg-white p-6 rounded-xl border border-slate-200 shadow-sm hover:shadow-lg transition-shadow duration-300">
@@ -210,7 +259,7 @@
                     <h3 class="text-2xl font-bold text-slate-900">Salons & Spas</h3>
                     <p class="text-slate-600 mt-3">
                         Fill your chairs by booking appointments for haircuts, massages, and spa days. Answer questions about services and pricing.
-                    </p>
+                    </D>
                 </div>
             </div>
         </div>
@@ -221,6 +270,7 @@
     <!-- Testimonials (REMOVED) -->
 
     <!-- Final CTA (REMOVED) -->
+
 
     <!-- Footer -->
     <footer class="bg-white border-t border-slate-200">
